@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+nav a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.intro{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.features{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.feature-item{
+    flex: 1;
+    padding: 40px;
+    background: #ddd;
+    border-radius: 8px;
+}
+footer{
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
